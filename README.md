@@ -1,8 +1,16 @@
-# 🚗 Car Evaluation - Random Forest Classifier
+# Random Forest Classifier
 
 This project demonstrates how to apply the **Random Forest algorithm** to a real-world dataset — the **Car Evaluation** dataset — to classify the acceptability of cars based on various features like buying price, maintenance cost, safety, and capacity.
 
 ---
+
+## 📚 About Random Forest
+
+Random Forest is an **ensemble learning algorithm** that combines multiple decision trees to improve classification or regression performance. It works through:
+
+- **Bagging (Bootstrap Aggregation)**: Training each tree on a random sample of data.
+- **Feature Randomness**: Each tree sees a random subset of features at each split.
+- **Majority Voting (for classification)**: Final prediction is made by voting across all trees.
 
 ## 📚 What I Learned
 
@@ -59,21 +67,15 @@ The goal is to predict **car acceptability** based on the given features using a
 - **Confusion matrix** and **classification report** included for full transparency
 - Model slightly confused between `acc`, `good`, and `vgood` — typical for closely related labels
 
+  Example confusion matrix:
+
+| Actual \ Predicted | acc | good | unacc | vgood |
+|--------------------|-----|------|--------|--------|
+| acc                | 108 | 5    | 12     | 2      |
+| good               | 1   | 10   | 2      | 5      |
+| unacc              | 10  | 0    | 389    | 0      |
+| vgood              | 4   | 1    | 0      | 21     |
+
+
 ---
-
-## 🔍 Sample Output
-
-### Confusion Matrix
-![Confusion Matrix](confusion_matrix.png)
-
-### Feature Importance
-![Feature Importance](feature_importance.png)
-
----
-
-## 🚀 How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/car-evaluation-random-forest.git
-   cd car-evaluation-random-forest
+### Happy Learning
