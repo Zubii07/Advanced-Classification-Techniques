@@ -1,4 +1,4 @@
-# 🤖 Machine Learning Projects: Random Forest, SVM & KNN
+# 🤖 Advanced Classification Algorithms: Random Forest, SVM & KNN
 
 This repository showcases three real-world classification problems solved using machine learning algorithms — **Random Forest**, **Support Vector Machine (SVM)**, and **K-Nearest Neighbors (KNN)**. Each project applies core ML principles, highlights algorithmic intuition, and evaluates model performance with visualizations.
 
